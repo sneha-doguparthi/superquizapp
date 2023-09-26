@@ -34,7 +34,6 @@ const QuestionImage = styled('img')`
 
 export function Question({ currentQuestion, handleOptionSelect, timerElapsed, selectedOption, isCorrect }) {
   const optionSelect = (index) => {
-    console.log(index);
     handleOptionSelect(index);
   };
 
