@@ -1,0 +1,34 @@
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px 0;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff; 
+}
+
+li.selected {
+  background-color: #9a98bd;
+}
+
+li:hover {
+  background-color: #9a98bd;
+}
+
+li.correct {
+  background-color: #a6e22e;
+  color: white;
+}
+
+li.incorrect {
+  background-color: #f54545;
+  color: white;
+}
+
