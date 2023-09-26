@@ -79,7 +79,6 @@ function Quiz() {
 
       const currentQuestion = questions[currentQuestionIndex];
       if (currentQuestion.answer === option) {
-        console.log("currect answer", currentQuestion.answer, option)
         setIsCorrect(true);
         setCorrectAnswers(correctAnswers + 1);
       } else {
